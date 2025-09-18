@@ -1,0 +1,5 @@
+file 'C:\vchan\media\Workaholics S02E210 2011-11-15 Man Up 2024-08-08-1030.mpg'
+file 'C:\vchan\media\Workaholics S02E205 2011-10-11 Model Kombat 2024-08-07-1100.mpg'
+file 'C:\vchan\media\Workaholics S02E207 2011-10-25 Stop Pajama Time 2024-08-07-1200.mpg'
+file 'C:\vchan\media\Workaholics S02E209 2011-11-08 Karls Wedding 2024-08-08-1000.mpg'
+file 'C:\vchan\media\Workaholics S02E06 2011-10-18 Old Man Ders 2024-08-07-1130.mpg'

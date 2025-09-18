@@ -1,0 +1,30 @@
+# Virtual Channel config file
+
+VERSION: "v0.7-dev"
+IDLE_TIMEOUT: 60          # seconds of no client activity before stopping
+MEDIA_DIR: "C:\\vchan\\media"
+ALLOWED_EXTS: ".mp4,.mkv,.mov,.m4v,.mpg,.ts,.m2ts"
+
+EPG_REFRESH_S: 21600      # 6 hours
+RESCAN_EVERY_S: 300       # 5 minutes
+
+LOG_MAX_BYTES: 10485760   # 10 MB
+LOG_BACKUPS: 3
+PORT: 8088
+
+SCHEDULE_FILE = PL_DIR / "schedule.json"
+SCHEDULE_DURATION_HOURS = 24  # length of schedule before rollover/extend
+
+
+# Security
+SHUTDOWN_TOKEN: "secret-token"
+
+# FFmpeg settings
+FFMPEG_VIDEO_BITRATE: "2M"
+FFMPEG_RESOLUTION: "1280x720"
+# Optional new toggle we discussed
+FORCE_TRANSCODE: false
+
+# EPG
+EPG_CHANNEL_ID: "VChannel.1"
+EPG_CHANNEL_NAME: "My Virtual Channel"

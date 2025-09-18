@@ -1,0 +1,50 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Logs
+*.log
+playlist/*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+
+# --- Project-specific ---
+# Dev work folders
+dev2/
+dev/
+
+# Media files (do not upload to repo)
+media/
+*.mp4
+*.mkv
+*.avi
+*.mpg
+*.mpeg
+
+# Generated HLS output
+hls/
+*.m3u8
+*.ts
+
+# Config backups
+*.bak
+*.tmp
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
