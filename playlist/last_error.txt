@@ -1,1 +1,0 @@
-ffmpeg exited during startup; see /logs/ffmpeg
